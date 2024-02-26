@@ -17,5 +17,7 @@ public class C02Switch {
                 break; //마지막 break 생략 가능
         }
         System.out.println("statement 5");
+
+        
     }
 }

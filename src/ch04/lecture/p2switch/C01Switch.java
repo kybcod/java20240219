@@ -2,9 +2,6 @@ package ch04.lecture.p2switch;
 
 public class C01Switch {
     public static void main(String[] args) {
-
-        System.out.println("statement 1");
-
         String city = "제주";
         switch (city) {
             //값이 "서울"
@@ -22,12 +19,5 @@ public class C01Switch {
                 System.out.println("statement 4");
                 break;
         }
-
-
-        System.out.println("statement 5");
-        System.out.println("statement 6");
-        System.out.println("statement 7");
-        System.out.println("statement 8");
-        System.out.println("statement 9");
     }
 }
