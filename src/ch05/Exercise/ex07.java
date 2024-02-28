@@ -1,6 +1,6 @@
-package ch05;
+package ch05.Exercise;
 
-public class Excerise {
+public class ex07 {
     public static void main(String[] args) {
         int[] array = {1, 5, 3, 8, 2};
         int max = 0;
