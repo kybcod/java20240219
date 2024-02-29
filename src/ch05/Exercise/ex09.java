@@ -22,6 +22,7 @@ public class ex09 {
 
             switch (menu) {
                 case "1" -> {
+                    //학생 수 입력받고 새 배열을 scores 할당
                     System.out.print("학생수> ");
                     String student = scanner.nextLine();
                     studentNum = Integer.parseInt(student);
