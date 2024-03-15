@@ -4,6 +4,7 @@ public class C02ToString {
     public static void main(String[] args) {
         Object o1 = new C02MyClass("son", "london", 33);
         System.out.println(o1.toString());
+        System.out.println(o1);
 
         Object o2 = new C02MyClass("lee", "paris", 22);
         System.out.println(o2.toString());
