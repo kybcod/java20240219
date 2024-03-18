@@ -26,7 +26,6 @@ public class C07WIldCard {
     private static void method2(C07Box<? super Number> box) {
         box.setItem(3);
         box.setItem(3.14);
-
     }
 }
 
