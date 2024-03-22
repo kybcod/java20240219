@@ -24,9 +24,14 @@ public class C13Collect {
 
         System.out.println("result = " + result);
 
+
         List<Integer> result3 = list.stream()
                 .map(String::length)
                 .collect(Collectors.toList());
         System.out.println("result3 = " + result3);
+
+        ArrayList<Integer> arrayList = result3.stream()
+                .collect(Collectors.toCollection(ArrayList::new));
+        System.out.println("arrayList = " + arrayList);
     }
 }

@@ -8,6 +8,7 @@ public class C11Reduce {
 
         List<String> list = List.of("java", "css", "spring", "html");
 
+        //고전적 방법
         //javacsspringhtml
         String result1 = "";
         for (String s : list) {
@@ -21,6 +22,7 @@ public class C11Reduce {
             sum1 += i;
         }
         System.out.println(sum1);
+
 
         //stream 활용
         String result2 = list.stream()

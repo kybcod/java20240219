@@ -16,5 +16,6 @@ public class C16Collectors {
                 .collect(Collectors.groupingBy(e -> e.substring(0, 1)));
         System.out.println("collect = " + collect);
 
+
     }
 }
