@@ -25,7 +25,7 @@ public class C05CopyCode {
             e.printStackTrace();
         }
 
-        /*try {
+        try {
             Reader reader = new FileReader(src);
             Writer writer = new FileWriter(des);
             try (reader; writer) {
@@ -38,7 +38,7 @@ public class C05CopyCode {
             }
         } catch (IOException e) {
             e.printStackTrace();
-        }*/
+        }
 
     }
 }
