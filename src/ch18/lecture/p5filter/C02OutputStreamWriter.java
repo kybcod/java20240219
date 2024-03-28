@@ -1,4 +1,4 @@
-package ch18.p5filter;
+package ch18.lecture.p5filter;
 
 import java.io.FileOutputStream;
 import java.io.OutputStream;
